@@ -25,12 +25,10 @@ public class Register {
             amt -= (quant * i.amt());
         }
         return purse;
-
     }
 
     public static void main(String[] args) {
         Register register = new Register();
-        Purse purse = register.getPurse();
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a dollar amount: ");
         double amt = scan.nextDouble();
